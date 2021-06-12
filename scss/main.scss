@@ -43,3 +43,26 @@ body {
     margin-left: 25px;
   }
 }
+
+.features__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.features__list-item {
+    width: 300px;
+    &::after {
+        content: ". . .";
+        display: inline-block;
+        font-size: 40px;
+    }
+    &:nth-child(3)::after {
+        display: none;
+    }
+}
+.features__item-link {
+    text-decoration: none;
+}
