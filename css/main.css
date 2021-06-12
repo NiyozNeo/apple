@@ -1,16 +1,34 @@
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  font-family: sans-serif;
 }
 
 .container {
   max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.intro {
+  padding-top: 100px;
+  background-image: url("../img/watches.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro__name {
+  font-size: 40px;
+}
+
+.intro__info {
+  width: 400px;
+  font-size: 13px;
+  line-height: 18px;
 }
 /*# sourceMappingURL=main.css.map */
