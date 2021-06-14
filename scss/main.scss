@@ -5,21 +5,70 @@
   margin: 0;
   padding: 0;
 }
-
 body {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
-
 .container {
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
 }
-
 .header {
   margin-top: 40px;
-
   & .container {
+.intro__container {
+    padding-top: 50px;
+    background-image: url("../img/watches.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding-bottom: 240px;
+    position: relative;
+}
+.band__container {
+    padding-top: 130px;
+    background-image: url("../img/preview.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding-bottom: 140px;
+    position: relative;
+}
+.intro__name {
+    font-size: 40px;
+}
+
+.intro__info {
+    margin-top: 50px;
+    width: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 3px;
+        height: 100px;
+        background-color: dimgrey;
+    }
+}
+.intro__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    background-color: crimson;
+    padding: 11px;
+}
+.intro__hr {
+    position: absolute;
+    bottom: 0;
+    width: 1140px;
+}
+.list {
+ main
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,4 +114,44 @@ body {
 }
 .features__item-link {
   text-decoration: none;
+}
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list__item {
+    overflow-y: hidden;
+    width: 300px;
+    &::after {
+        content: ". . .";
+        display: inline-block;
+        font-size: 40px;
+    }
+    &:nth-child(3)::after {
+        display: none;
+    }
+}
+.item-link {
+    text-decoration: none;
+    color: rgb(226, 83, 83);
+    margin-left: 50px;
+    position: relative;
+    transition: 300ms all ease-in;
+    &:hover {
+        margin-left: 70px;
+        &::before {
+            width: 50px;
+            left: -70px;
+        }
+    }
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        background: rgb(226, 83, 83);
+        position: absolute;
+        top: 50%;
+        left: -50px;
+    }
 }
