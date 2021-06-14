@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-.intro {
+.intro__container {
     padding-top: 50px;
     background-image: url("../img/watches.jpg");
     background-repeat: no-repeat;
@@ -23,7 +23,15 @@ body {
     padding-bottom: 240px;
     position: relative;
 }
-
+.band__container {
+    padding-top: 130px;
+    background-image: url("../img/preview.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding-bottom: 140px;
+    position: relative;
+}
 .intro__name {
     font-size: 40px;
 }
