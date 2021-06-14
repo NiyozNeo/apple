@@ -66,6 +66,10 @@ body {
   padding: 11px;
 }
 
+.intro__link:hover {
+  background-color: #ca0d32;
+}
+
 .intro__hr {
   position: absolute;
   bottom: 0;
@@ -100,5 +104,23 @@ body {
 
 .item-link {
   text-decoration: none;
+}
+
+.band {
+  padding-bottom: 50px;
+}
+
+.runners {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../img/runners.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.runners__words {
+  margin-left: 60%;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
