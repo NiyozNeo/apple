@@ -9,7 +9,6 @@
 
 body {
   font-family: sans-serif;
- header/durdona
 }
 
 .container {
@@ -20,62 +19,6 @@ body {
 
 .header {
   margin-top: 40px;
-}
-
-.header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.header__links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  list-style: none;
-}
-
-.list__link {
-  text-decoration: none;
-  color: #b0acab;
-  margin-left: 25px;
-}
-
-*, *::before, *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-=======
-main
-}
-
-body {
-  font-family: sans-serif;
-}
-
-.container {
-  max-width: 1140px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .intro__container {
@@ -137,62 +80,6 @@ body {
   position: absolute;
   bottom: 0;
   width: 1140px;
-}
-
-.list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.list__item {
-  overflow-y: hidden;
-  width: 300px;
-}
-
-.list__item::after {
-  content: ". . .";
-  display: inline-block;
-  font-size: 40px;
-}
-
-.list__item:nth-child(3)::after {
-  display: none;
-}
-
-.item-link {
-  text-decoration: none;
-  color: #e25353;
-  margin-left: 50px;
-  position: relative;
-  -webkit-transition: 300ms all ease-in;
-  transition: 300ms all ease-in;
-}
-
-.item-link:hover {
-  margin-left: 70px;
-}
-
-.item-link:hover::before {
-  width: 50px;
-  left: -70px;
-}
-
-.item-link::before {
-  content: "";
-  display: inline-block;
-  width: 30px;
-  height: 2px;
-  background: #e25353;
-  position: absolute;
-  top: 50%;
-  left: -50px;
 }
 
 .band {

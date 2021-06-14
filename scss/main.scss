@@ -15,7 +15,7 @@ body {
 }
 .header {
   margin-top: 40px;
-  & .container {
+}
 .intro__container {
     padding-top: 50px;
     background-image: url("../img/watches.jpg");
@@ -61,6 +61,7 @@ body {
     font-size: 13px;
     background-color: crimson;
     padding: 11px;
+
     &:hover {
         background-color: rgb(202, 13, 50);
     }
@@ -69,73 +70,6 @@ body {
     position: absolute;
     bottom: 0;
     width: 1140px;
-}
-.list {
- main
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  &__links {
-    display: flex;
-    align-items: center;
-  }
-}
-
-.list {
-  display: flex;
-  align-items: center;
-
-  list-style: none;
-
-  &__link {
-    text-decoration: none;
-    color: #b0acab;
-    margin-left: 25px;
-  }
-}
-
-.features__list {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.features__list-item {
-  width: 300px;
-  &::after {
-    content: ". . .";
-    display: inline-block;
-    font-size: 40px;
-  }
-  &:nth-child(3)::after {
-    display: none;
-  }
-}
-.features__item-link {
-  text-decoration: none;
-}
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-.list__item {
-    overflow-y: hidden;
-    width: 300px;
-    &::after {
-        content: ". . .";
-        display: inline-block;
-        font-size: 40px;
-    }
-    &:nth-child(3)::after {
-        display: none;
-    }
-}
-.item-link {
-    text-decoration: none;
 }
 .band {
     padding-bottom: 50px;
