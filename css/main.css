@@ -9,6 +9,7 @@
 
 body {
   font-family: sans-serif;
+<<<<<<< HEAD
 }
 
 .container {
@@ -63,6 +64,8 @@ body {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+=======
+>>>>>>> f826c821552e3499532fb6213027b7e686c3d31c
 }
 
 body {
@@ -73,6 +76,63 @@ body {
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.intro__container {
+  padding-top: 50px;
+  background-image: url("../img/watches.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-bottom: 240px;
+  position: relative;
+}
+
+.band__container {
+  padding-top: 130px;
+  background-image: url("../img/preview.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-bottom: 140px;
+  position: relative;
+}
+
+.intro__name {
+  font-size: 40px;
+}
+
+.intro__info {
+  margin-top: 50px;
+  width: 400px;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.intro__info::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 3px;
+  height: 100px;
+  background-color: dimgrey;
+}
+
+.intro__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  background-color: crimson;
+  padding: 11px;
+}
+
+.intro__hr {
+  position: absolute;
+  bottom: 0;
+  width: 1140px;
 }
 
 .list {
@@ -88,6 +148,7 @@ body {
 }
 
 .list__item {
+  overflow-y: hidden;
   width: 300px;
 }
 
@@ -103,5 +164,30 @@ body {
 
 .item-link {
   text-decoration: none;
+  color: #e25353;
+  margin-left: 50px;
+  position: relative;
+  -webkit-transition: 300ms all ease-in;
+  transition: 300ms all ease-in;
+}
+
+.item-link:hover {
+  margin-left: 70px;
+}
+
+.item-link:hover::before {
+  width: 50px;
+  left: -70px;
+}
+
+.item-link::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background: #e25353;
+  position: absolute;
+  top: 50%;
+  left: -50px;
 }
 /*# sourceMappingURL=main.css.map */
