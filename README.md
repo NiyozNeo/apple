@@ -1,7 +1,6 @@
-# apple
-![Aplle](https://github.com/NiyozNeo/apple/blob/main/img/logo.svg)
+![Aplle](https://github.com/NiyozNeo/apple/blob/main/img/logo.svg) # apple
+
 ## Our contributors
-![contributors](https://pngtree.com/freepng/contributions-flag_793647.html)
 [Niyoz](https://github.com/NiyozNeo/)
 [Durdona]https://github.com/durdonausman)
 [Mahdiy](https://github.com/mahdiy1407)
