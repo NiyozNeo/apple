@@ -1,7 +1,7 @@
 # apple
 ![Aplle](https://images.app.goo.gl/mvKHJLdZuugfP7fd8)
 ## Our contributors
-![contributors](https://images.app.goo.gl/4JUDrY5pgqmNWaKe8)
+![contributors](https://pngtree.com/freepng/contributions-flag_793647.html)
 [Niyoz](https://github.com/NiyozNeo/)
 [Durdona]https://github.com/durdonausman)
 [Mahdiy](https://github.com/mahdiy1407)
