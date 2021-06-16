@@ -1,5 +1,5 @@
 # apple
-![Aplle](https://images.app.goo.gl/mvKHJLdZuugfP7fd8)
+![Aplle](https://github.com/NiyozNeo/apple/blob/main/img/logo.svg)
 ## Our contributors
 ![contributors](https://pngtree.com/freepng/contributions-flag_793647.html)
 [Niyoz](https://github.com/NiyozNeo/)
