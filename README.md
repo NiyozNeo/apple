@@ -3,12 +3,12 @@
 ## Our contributors
 [Niyoz](https://github.com/NiyozNeo/)
 
-[Durdona]https://github.com/durdonausman)
+[Durdona](https://github.com/durdonausman)
 
 [Mahdiy](https://github.com/mahdiy1407)
 
 
-Header by [Durdona]https://github.com/durdonausman)
+Header by [Durdona](https://github.com/durdonausman)
 
 Section "WAY" by [Mahdiy](https://github.com/mahdiy1407)
 
