@@ -1,4 +1,4 @@
-# apple ![Aplle](https://github.com/NiyozNeo/apple/blob/main/img/logo.svg) 
+# Apple ![Aplle](https://github.com/NiyozNeo/apple/blob/main/img/logo.svg) 
 
 ## Our contributors
 [Niyoz](https://github.com/NiyozNeo/)
