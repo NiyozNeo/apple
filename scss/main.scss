@@ -118,3 +118,58 @@ body {
     margin-left: 60%;
     color: #fff;
 }
+/* mahdiy */
+.way__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 120px;
+}
+
+.way__list-item {
+    width: 300px;
+    overflow: hidden;
+    margin-top: 60px;
+
+    &::after {
+        content: ". . .";
+        display: inline-block;
+        font-size: 40px;
+        color: rgb(151, 151, 151);
+    }
+
+    &:nth-child(3)::after {
+        display: none;
+    }
+}
+.way__list-title {
+    margin-bottom: 30px;
+}
+.way__list-link {
+    text-decoration: none;
+    color: rgb(250, 79, 79);
+    margin-left: 60px;
+    transition: 300ms ease all;
+    position: relative;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 70px;
+        height: 2px;
+        background: rgb(250, 79, 79);
+        position: absolute;
+        top: 50%;
+        right: 100px;
+    }
+
+    &:hover {
+        margin-left: 80px;
+
+        &::before {
+            width: 80px;
+        }
+    }
+}
